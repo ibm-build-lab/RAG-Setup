@@ -1,4 +1,4 @@
-# RAG-Setup
+# RAG PoC Setup
 This README contains instructions to set up RAG in a partner's PoC account
 
 RAG - Retrieval Augmented Generation https://www.ibm.com/architectures/hybrid/genai-rag
