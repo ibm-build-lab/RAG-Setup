@@ -21,7 +21,7 @@ RAG - Retrieval Augmented Generation https://www.ibm.com/architectures/hybrid/ge
     See https://github.com/ibm-build-lab/wxd-file-ingestion-utilities for options
 
 ###  Watson Discovery
-Create a Project, upload and train documents.  
+Create a Document Retrieval Project, upload and train documents.  
 
 ## Provision **watsonx.ai**
 
