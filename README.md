@@ -21,7 +21,7 @@ RAG - Retrieval Augmented Generation https://www.ibm.com/architectures/hybrid/ge
     See https://github.com/ibm-build-lab/wxd-file-ingestion-utilities for options
 
 ###  Watson Discovery
-Create a Project, upload and train documents.  For the actions to search **Watson Discovery** instead of **ElasticSearch**, you will need to change the "No matches" assistant action to call the `Query WD + LLM` action instead of `Query ES + LLM`
+Create a Project, upload and train documents.  
 
 ## Provision **watsonx.ai**
 
@@ -33,11 +33,11 @@ Create a Project, upload and train documents.  For the actions to search **Watso
 
 ## Provision the RAG-LLM-Service on Code Engine
 
-Go to https://github.com/ibm-build-lab/RAG-LLM-Service/tree/main/codeengine-setup for steps to do this
+Go to https://github.com/ibm-build-lab/RAG-LLM-Service/tree/main/codeengine-setup for steps to do this. 
 
 ## Provision watsonx Assistant Plus plan
 
-Create an assistant to connect to **RAG-LLM-Service**.  Create a custom extension for **RAG-LLM-Service** and upload the actions located in https://github.com/ibm-build-lab/RAG-LLM-Service/tree/main/watsonx-assistant-setup.  See https://github.com/ibm-build-lab/RAG-LLM-Service/blob/main/watsonx-assistant-setup/README.md for more information and detailed steps.
+Create an assistant to connect to **RAG-LLM-Service**.  Create a custom extension for **RAG-LLM-Service** and upload the actions located in https://github.com/ibm-build-lab/RAG-LLM-Service/tree/main/watsonx-assistant-setup.  See https://github.com/ibm-build-lab/RAG-LLM-Service/blob/main/watsonx-assistant-setup/README.md for more information and detailed steps. For the actions to search **Watson Discovery** instead of **ElasticSearch**, you will need to change the "No matches" assistant action to call the `Query WD + LLM` action instead of `Query ES + LLM`
 
 Optional: Create a different assistant to connect up Integrated Conversational Search to test differences. See https://www.ibm.com/docs/en/watsonx/watson-orchestrate/current?topic=assistants-conversational-search
 
